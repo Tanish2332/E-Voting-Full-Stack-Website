@@ -47,7 +47,6 @@ A full-stack web application for secure, transparent electronic voting with emai
    - Copy `.env.example` to `.env`
    - Configure the following variables:
    ```env
-   MONGODB_URI=mongodb+srv://username:password@cluster.mongodb.net/e-voting
    PORT=3000
    SESSION_SECRET=your_secret_key
    EMAIL_HOST=smtp.gmail.com
